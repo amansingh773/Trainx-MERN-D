@@ -200,6 +200,81 @@
 // console.log(num1 % num2);
 // console.log(num1 ** num2);
 
+// Increment and Decrement
+
+// let num1 = 10;
+// console.log(num1++);
+// console.log(num1)
+
+
+// Assignment Operators
+
+// let age = 20;
+// console.log(age);
+
+// let num = 20;
+
+// num += 25;
+
+// num = num + 25
+
+// console.log(num);
+
+// console.log(num += 20)
+// console.log(num -= 10);
+// console.log(num *= 2);
+// console.log(num /= 4);
+// console.log(num %= 5);
+// console.log(num **= 3);
+
+
+// Comparison Operators
+
+// console.log(10 > 5)
+// console.log(10 < 5)
+// console.log(10 >= 10)
+// console.log(10 <= 5);
+
+// == Vs ===
+
+// console.log(10 == "10");
+// console.log(10 === "10")
+
+// Logical Operator 
+
+// AND
+
+// let age  = 20;
+// let hasLicense = true;
+
+// if(age >= 18 && hasLicense)
+// {
+//      console.log("It is eligible for drive")
+// }
+
+// OR
+
+// let age = 20;
+
+// let hasLicense =  false;
+
+// if(age >=18 || hasLicense)
+// {
+//      console.log("Drive");
+// }
+
+// let isLoggedIn = false;
+
+// if(!isLoggedIn)
+// {
+//      console.log("Please Login");
+// }
+
+// console.log(!false);
+
+
+
+
 
 
 
