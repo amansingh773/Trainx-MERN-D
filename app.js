@@ -274,12 +274,216 @@
 
 
 
+// Conditional Statements
+
+// let age = 16;
+
+// if(age > 18)
+// {
+//      console.log("Eligible");
+// }
+// else{
+//      console.log("Not eligible");
+// }
+
+
+// Example 1
+
+// let marks = 75;
+
+// if(marks > 80)
+// {
+//      console.log("Grade A")
+// }
+// else if(marks > 60)
+// {
+//      console.log("Grade B")
+// }
+// else if(marks > 40)
+// {
+//      console.log("Grade C")
+// }
+// else{
+//      console.log("Fail")
+// }
+
+
+// Switch Case 
+
+// let day = 1;
+
+//      switch(day)
+//      {
+//           case 1:
+//                console.log("Monday");
+//                break;
+//           case 2:
+//                console.log("Tuesday");
+//                break;
+//           case 3 :
+//                console.log("Wednesday");
+//                break;
+//           default:
+//                console.log("Invalid day")
+//      }
+
+
+// Ternary Operator 
+
+// let age = 18;
+
+// let result = age > 18 ?"true" : "false";
+
+// console.log(result);
+
+// Loop 
+
+// console.log(1)
+// console.log(2)
+// console.log(3);
+// console.log(4);
+// console.log(5);
+// console.log(6);
+// console.log(7);
+// console.log(8);
+// console.log(9);
+// console.log(10);
+
+// for(let i=1;i<=10;i++)
+// {
+//      console.log(i);
+// }
+
+// while loop
+
+// let num = 1;
+
+// while(num <=10)
+// {
+//      console.log(num);
+//      num++
+// }
+
+
+
+
+
+// do-while
+
+// let num =1;
+
+// do{
+//      console.log(num);
+//      num++
+// }while(num<=5)
 
 
 
 
 
 
+// break
+
+// for(let i=1; i<=10;i++)
+// {
+//      if(i==5)
+//      {
+//           break;
+//      }
+//      console.log(i)
+// }
+
+
+// Continue
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i == 5) {
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+
+// Nested loop
+
+// for(let i=1;i<=10;i++)
+// {
+//      for(let j=1;j<=10;j++)
+//      {
+//           console.log(i,j)
+//      }
+// }
+
+// for(let i=1;i<=5; i++)
+// {
+//      let row = "";
+
+//      for(let j=1;j<=i;j++)
+//      {
+//           row += "* "
+//      }
+//      console.log(row);
+// }
+
+
+// let name = "aman";
+// console.log(Name);
+
+
+
+// Input,output Statements
+
+
+// console.log("hello class");
+
+
+// alert
+
+// alert("Please login first");
+
+// prompt
+
+// let name1  = prompt("enter your name");
+
+// console.log(name1);
+
+// console.table
+
+// let table = [
+//      {
+//           name:"Aman",
+//           age:23
+//      },
+//      {
+//           name:"Rahul",
+//           age:25
+//      },
+//      {
+//           name:"Shivam",
+//           age:21
+//      }
+// ]
+
+
+// console.table(table)
+
+
+// console.error
+
+// console.error("404 Not found");
+
+// console.warn
+
+// console.warn("Something went Wrong");
+
+// Template literals
+
+let name = "aman"
+let age = 23;
+
+// console.log("My name is " + name + " age is " + age);
+
+console.log(`My name is ${name} and age is ${age}`)
 
 
 
