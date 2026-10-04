@@ -2,11 +2,6 @@
 
 // console.log(age);
 
-
-
-
-
-
 // var age = 20;
 
 // age = 25
@@ -15,27 +10,19 @@
 
 // console.log(age);
 
-
 // let age = 30;
 
 // age = 45;
 
 // let age = 30;
 
-
 // console.log(age);
-
-
 
 // const age = 30;
 
 // age = 45;
 
 // console.log(age)
-
-
-
-
 
 // Data Types
 
@@ -45,8 +32,7 @@
 
 // console.log(string);
 
-
-// Number 
+// Number
 
 // let num = 10
 // let num2 = 22.45
@@ -54,7 +40,6 @@
 // console.log(num)
 
 // console.log(num2)
-
 
 // Boolean
 
@@ -65,13 +50,11 @@
 // console.log(a);
 // console.log(b);
 
-
 // Undefined
 
 // let a;
 
 // console.log(a);
-
 
 //null
 
@@ -79,21 +62,17 @@
 
 // console.log(b);
 
-
 //bigInt
 
 // let bigInt = 12345678997653213467896433n;
 
 // console.log(bigInt)
 
-
 //symbol
 
 // let id = Symbol("id");
 
 // console.log(id);
-
-
 
 // Reference Data type
 
@@ -121,7 +100,7 @@
 
 // userName()
 
-// Primitive vs Reference 
+// Primitive vs Reference
 
 // let a = 10;
 // let b = a;
@@ -131,7 +110,7 @@
 // console.log(a);
 // console.log(b);
 
-// Reference 
+// Reference
 
 // let obj1 = {
 //      name : "Aman",
@@ -144,7 +123,6 @@
 
 // console.log(obj1);
 // console.log(obj2);
-
 
 // Type conversion and Type coercion
 
@@ -160,14 +138,12 @@
 
 // console.log(newNumber);
 
-
 // Type Coercion
 
 // let a1 = 10;
 // let b1 = "20";
 
 // console.log(a1 + b1);
-
 
 // let a1 = 10;
 // let b1 = "20";
@@ -182,9 +158,6 @@
 
 // let str = "Aman";
 // console.log(typeof str);
-
-
-
 
 // Operators and Decision Making
 
@@ -206,7 +179,6 @@
 // console.log(num1++);
 // console.log(num1)
 
-
 // Assignment Operators
 
 // let age = 20;
@@ -227,7 +199,6 @@
 // console.log(num %= 5);
 // console.log(num **= 3);
 
-
 // Comparison Operators
 
 // console.log(10 > 5)
@@ -240,7 +211,7 @@
 // console.log(10 == "10");
 // console.log(10 === "10")
 
-// Logical Operator 
+// Logical Operator
 
 // AND
 
@@ -272,8 +243,6 @@
 
 // console.log(!false);
 
-
-
 // Conditional Statements
 
 // let age = 16;
@@ -285,7 +254,6 @@
 // else{
 //      console.log("Not eligible");
 // }
-
 
 // Example 1
 
@@ -307,8 +275,7 @@
 //      console.log("Fail")
 // }
 
-
-// Switch Case 
+// Switch Case
 
 // let day = 1;
 
@@ -327,8 +294,7 @@
 //                console.log("Invalid day")
 //      }
 
-
-// Ternary Operator 
+// Ternary Operator
 
 // let age = 18;
 
@@ -336,7 +302,7 @@
 
 // console.log(result);
 
-// Loop 
+// Loop
 
 // console.log(1)
 // console.log(2)
@@ -364,10 +330,6 @@
 //      num++
 // }
 
-
-
-
-
 // do-while
 
 // let num =1;
@@ -376,11 +338,6 @@
 //      console.log(num);
 //      num++
 // }while(num<=5)
-
-
-
-
-
 
 // break
 
@@ -393,7 +350,6 @@
 //      console.log(i)
 // }
 
-
 // Continue
 
 // for (let i = 1; i <= 10; i++) {
@@ -402,7 +358,6 @@
 //   }
 //   console.log(i);
 // }
-
 
 // Nested loop
 
@@ -425,17 +380,12 @@
 //      console.log(row);
 // }
 
-
 // let name = "aman";
 // console.log(Name);
 
-
-
 // Input,output Statements
 
-
 // console.log("hello class");
-
 
 // alert
 
@@ -464,9 +414,7 @@
 //      }
 // ]
 
-
 // console.table(table)
-
 
 // console.error
 
@@ -478,12 +426,342 @@
 
 // Template literals
 
-let name = "aman"
-let age = 23;
+// let name = "aman"
+// let age = 23;
 
 // console.log("My name is " + name + " age is " + age);
 
-console.log(`My name is ${name} and age is ${age}`)
+// console.log(`My name is ${name} and age is ${age}`)
+
+// function
+
+// function greet()
+// {
+//      console.log("Welcome");
+// }
+
+// greet();
+
+// without function
+
+// console.log("welcome aman");
+// console.log("welcome rahul");
+// console.log("welcome yash");
+
+// with function
+
+// function greet(name)
+// {
+//      console.log(`Welcome ${name}`)
+// }
+
+// greet("Aman");
+// greet("rahul");
+// greet("yash");
+
+// greet();
+
+// example 2
+
+// function calculateAdd()
+// {
+//      let a = 10;
+//      let b = 20;
+
+//      console.log(a+b);
+// }
+
+// calculateAdd();
+
+// function Declaration
+
+// function greet(){
+//      console.log("Hello Javascript");
+// }
+
+// Function invocation/Calling
+
+// greet();
+
+// function expression
+
+// let greet = function(){
+//      console.log("Hello javascript");
+// }
+
+// greet();
+
+// example
+
+// let addtion = function()
+// {
+//      let num1 = 10;
+//      let num2 = 20;
+
+//      console.log(num1 + num2)
+// }
+
+// addtion();
+
+// function declaration vs function expression
+
+// function Declaration // Regular function
+
+// function welcome()
+// {
+//      console.log("Welcome to js class");
+// }
+
+// welcome();
+
+// function expression
+
+// let welcome1 = function()
+// {
+//      console.log("welcome to js class 2");
+// }
+
+// welcome1();
+
+// Parameter vs Arguments
+
+// function greet(name)
+// {
+//      console.log(`Welcome to ${name}`)
+// }
+
+// greet("Aman");
+// greet("Rahul");
+
+// Default parameter
+
+// function greet(name)
+// {
+//      console.log(`Hello ${name}`);
+// }
+
+// greet();
+
+// function greet(name="Guest")
+// {
+//      console.log(`hello ${name}`);
+// }
+
+// greet("Aman");
+
+// multiple Default parameters
+
+// function calculate(price=2000,tax=18)
+// {
+//      console.log(price + (price * tax /100))
+// }
+
+// calculate();
+
+// fallback value
+
+// function greet(name)
+// {
+//      // null || "Guest";  fallback values
+
+//      console.log(`Hello ${name}`);
+// }
+// greet();
+
+// returning statements and Returning values
+
+// function add(a,b)
+// {
+//      return a + b
+// }
+
+// let result = add(10,20)
+
+// console.log(result);
+
+// console.log vs return
+
+// console.log
+
+// function add (a,b)
+// {
+//      console.log(a +b)
+// }
+
+// return
+
+// function add (a,b)
+// {
+//      return a + b
+// }
+
+// let result = add(20,20)
+
+// console.log(result)
+// ;
+
+// Function naming and Single responsibility
+
+// bad
+
+// function doSomething()
+// {
+//      //
+// }
+
+// good practice
+
+// function calculateTotal()
+// {
+//      // code
+// }
+
+// Single responsibility
+
+// poor design
+
+// function processOrder()
+// {
+//      // validate user
+
+//      // calculate price
+
+//      // save order
+
+//      // send email
+
+//      // update cart
+// }
+
+// better
+
+// function validateUser()
+// {
+//      // user
+// }
+
+// function calculateTotal()
+// {
+//      // calculateTotal
+// }
+
+// Scope in javascript
+
+// Global Scope
+
+// var a = 10;
+
+// let b = 20;
+
+// const c = 30;
+
+// if(true)
+// {
+
+//      console.log(a)
+//      console.log(b);
+//      console.log(c);
+// }
+
+// for(let i =1;i<=10;i++)
+// {
+//      console.log(a)
+//      console.log(b)
+//      console.log(c)
+// }
+
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// block scope
+
+// {
+//   var a = 1;
+//   let b = 2;
+//   const c = 3;
+
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// if (true) {
+//   var a = 1;
+//   let b = 2;
+//   const c = 3;
+
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// function scope
+
+// function variables() {
+//   var a = 1;
+//   let b = 2;
+//   const c = 3;
+
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+
+// variables();
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// Lexical Scope
+
+// example 1
+
+// let name = "Aman";
+
+// function outer()
+// {
+//      let age = 22;
+
+//      function inner()
+//      {
+//           console.log(name);
+//           console.log(age);
+//      }
+//      inner()
+// }
+
+// outer();
+
+
+
+// let name = "shubham";
+
+// function outer()
+// {
+//      let num = 12;
+
+//           function inner()
+//           {
+
+//                console.log(name);
+//                console.log(num);
+//           }
+//           inner()
+// }
+
+// outer()
+
 
 
 
