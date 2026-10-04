@@ -763,6 +763,386 @@
 // outer()
 
 
+// Varibale shadowing
+
+// let name  = "Aman";
+
+// function outer()
+// {
+//      let name ="Rahul";
+
+//      console.log(name);
+// }
+
+// outer();
+
+// console.log(name);
+
+
+// Naming collision
+
+// let age = 20;
+// let age = 25;
+
+// console.log(age);
+
+
+// Hosting =>Very Important for Interview
+
+// var age;
+
+// console.log(age);
+
+// age = 20;
+
+
+// let 
+
+// let age;
+
+// console.log(age);
+
+// let age = 20;
+
+
+// const 
+
+// const age;
+// console.log(age);
+// const age = 23;
 
 
 
+// function declaration
+
+// greet();
+
+// function greet()
+// {
+//      console.log("Hello");
+// }
+
+
+// function expression in hoisting
+
+// greet();
+
+// const greet = function()
+// {
+//      console.log("Hello");
+// }
+
+// var case in function expression
+
+// greet();
+
+// var greet = function()
+// {
+//      console.log("Hello");
+// }
+
+
+// Arrow function 
+
+// syntax
+
+// const functionName = (parameter)=>{
+//      // code
+// }
+
+// functionName()
+
+
+// Example
+
+// const greet = ()=>{
+//      console.log("Hello");
+// }
+// greet();
+
+// Arrow function shorthand
+
+// Normal
+
+// const square = (num)=>{
+//      return num * num
+// }
+
+// console.log(square(5));
+
+// Shorthand
+
+// const square = num =>{
+//      return num * num
+// }
+
+// console.log(square(5));
+
+
+// Implicit vs Explicit return in Arrow
+
+// Explicit return
+
+// const add = (a,b)=>{
+//      return a + b
+// }
+
+// console.log(add(10,20));
+
+// Implicit return
+
+// const add = (a,b)=> a + b
+
+// console.log(add(10,40));
+
+
+// const add = (a,b)=>{
+//      return a + b
+// }
+
+
+// early return
+
+// Without early return
+
+// function checkAge(age)
+// {
+//      if(age >= 18)
+//      {
+//           console.log("Eligible");
+//      }
+//      else{
+//           console.log("Not eligible");
+//      }
+// }
+
+// checkAge(16);
+
+
+// early return
+
+// function checkAge(age)
+// {
+//      if (age < 18)
+//      {
+//           return "Not eligible";
+//      }
+//      return "Eligible"
+// }
+// console.log(checkAge(20));
+
+
+// HOF =>Higher Order function 
+
+// Example
+
+// function greet(name)
+// {
+//      console.log("hello" + name);
+// }
+
+// function processuser(greet2)
+// {
+//      greet2("Aman");
+// }
+
+// processuser(greet);
+
+
+// Callback function
+
+// function greet(name)
+// {
+//      console.log("hello" + name);
+// }
+
+// function processuser(greet2)
+// {
+//      greet2("Aman");
+// }
+
+// processuser(greet); => Callback function is greet
+
+
+// Closure
+
+// function Outer()
+// {
+//      let count  = 0;
+
+//      function inner()
+//      {
+//           count++;
+//           console.log(count);
+//      }
+//      return inner;
+// }
+
+// const counter = Outer();
+
+// counter();
+// counter();
+// counter();
+
+
+// IIFE =>Immediately invoked function expression
+
+// Syntax
+
+// (function(){
+//      console.log("Hello");
+// })();
+
+
+// Arrow function in IIFE
+
+// (()=>{
+//      console.log("Hello js");
+// })();
+
+
+// Parameter in IIFE
+
+// (function(name)
+// {
+//      console.log(`Hello ${name}`);
+// })("Aman");
+
+
+
+// Rest Parameter 
+
+// function sum(...numbers)
+// {
+//      console.log(numbers);
+// }
+
+// sum(10,20,30,40);
+
+
+// important write rest parameter in last 
+
+// function test(a,...values){
+//      console.log(a)
+//      console.log(values);
+// }
+
+// test(10,20,30,40);
+
+
+// Spread Operator 
+
+// const numbers = [1,2,3];
+// console.log(...numbers);
+
+
+// combine array
+
+// const a = [1,2,3]
+// const b = [4,5,6];
+
+// const result = [...a,...b];
+
+// console.log(result);
+
+// Spread in Object 
+
+// const user = {
+//      name : "Aman",
+//      age : 22
+// };
+
+// const updatedUser = {
+//      ...user,
+//      city:"Delhi"
+// };
+
+// console.log(updatedUser);
+
+
+// Functional Programming concept 
+
+// function as value
+
+// const greet = ()=>{
+//      console.log("hello");
+// }
+
+
+// function ko argument bana sakte hai
+
+// someFunction(greet)
+
+// function return bhi kar sakte hai
+
+// function createFunction()
+// {
+//      return greet
+// }
+
+
+// Pure function 
+
+// example
+
+// function add(a,b)
+// {
+//      return a + b
+// }
+
+// console.log(add(10,20))
+// console.log(add(10,20))
+// console.log(add(10,20))
+// console.log(add(10,20))
+// console.log(add(10, 20))
+
+
+// This keyword in Js
+
+// Inside an Object
+
+// const user = {
+//      name : "Aman",
+
+//      greet : function()
+//      {
+//           console.log(this.name);
+//      }
+// };
+
+// user.greet()
+
+
+// this with multiple properties
+
+// const students = {
+//      name : "Aman",
+//      age : 23,
+
+//      introduce : function()
+//      {
+//           console.log(`My name is ${this.name}`);
+//           console.log(`My age is ${this.age}`)
+//      }
+// };
+
+// students.introduce();
+
+
+// Arrow function this 
+
+const user = {
+     name :"Aman",
+
+     greet : ()=>{
+          console.log(this.name);
+     }
+};
+
+user.greet()
+
+
+// greet : function ()
+// {
+//      console.log(this.name)
+// }
