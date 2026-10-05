@@ -1131,18 +1131,83 @@
 
 // Arrow function this 
 
-const user = {
-     name :"Aman",
+// const user = {
+//      name :"Aman",
 
-     greet : ()=>{
-          console.log(this.name);
-     }
-};
+//      greet : ()=>{
+//           console.log(this.name);
+//      }
+// };
 
-user.greet()
+// user.greet()
 
 
 // greet : function ()
 // {
 //      console.log(this.name)
 // }
+
+
+
+// call()
+
+// call ka use function ko Immediately invoke/call karne aur this ko explicitly set karne ke liye hota hai
+
+
+// let user1 = {
+//      name : "Aman",  
+// }
+
+// function greet(city,age)
+// {
+//      console.log(`Hello ${this.name} and age is ${age} and city is ${city}`)
+
+// }
+
+// greet.call(user1,"Delhi",23)
+
+// let user2 = {
+//      name :"Rahul"
+// }
+
+// greet.call(user2)
+
+
+
+// apply()
+
+// apply exact same as call but difference is we send arguments in form of array 
+
+// let user1 = 
+// {
+//      name : "Aman",
+// }
+
+// function greet(city,age)
+// {
+//      console.log(`Hello this is my name ${this.name} and city is ${city} and age is${age}`)
+// }
+
+// greet.apply(user1,["delhi",23]);
+
+
+// bind
+
+// it does not execute function immediately but it returns a new function where this bind
+
+// let user = {
+//      name : "Aman",
+// }
+
+// function greet()
+// {
+//      console.log(`Hello this is my name ${this.name}`);
+// }
+
+// const greetUser = greet.bind(user)
+
+// // console.log(typeof greetUser);
+// greetUser()
+
+
+
