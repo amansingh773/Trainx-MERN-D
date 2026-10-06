@@ -116,6 +116,142 @@
 // console.log(arr.includes("Mango"));
 
 
+// Array Iteration methods
+
+// let arr = [10,20,30,40,50]
+
+// for(let i=0;i<arr.length;i++)
+// {
+//      console.log(arr[i]);
+// }
+
+// forEach
+
+// let arr = [10,20,30,40,50];
+
+// arr.forEach(function(number){
+//      console.log(number*2);
+// })
+
+
+// arrow function in for each
+
+// let arr =[10,20,30,40,50];
+
+// arr.forEach((number)=>{
+//      console.log(number)
+// })
+
+// forEach with value and index
+
+// let fruits = ["apple","banana","mango"];
+
+// fruits.forEach((value,index)=>{
+//      console.log(value,index)
+// })
+
+
+// for of loop
+
+// let arr = [1,2,3,4,5,6,7];
+
+// for(let num of arr)
+// {
+//      console.log(num * 2);
+// }
+
+
+// Array functional methods
+
+// map()
+
+// let arr = [1,2,3,4,5,6,7,8];
+
+// let newArr = arr.map((num)=>{
+//      return num *3
+// })
+
+// console.log(newArr);
+
+// filter()
+
+// let arr = [1,2,3,4,5,6,7,8];
+
+//  let newArr = arr.filter((number)=>{
+//           return number % 2 !== 0
+// })
+
+
+// console.log(newArr)
+
+
+
+// reduce
+
+// let arr = [10,20,30,40,50];
+
+// let newValue = arr.reduce((sum,num)=>{
+//      return sum + num
+// },0)
+
+// console.log(newValue);
+
+// find()
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+
+// let newValue = arr.find((number)=>{
+//      return number > 2
+// })
+
+// console.log(newValue)
+
+// some()
+
+// let arr = [1,2,3,4,5,6,7,8];
+
+// let newValue = arr.some((number)=>{
+//      return number > 2
+// })
+
+// console.log(newValue)
+
+
+// every
+
+// let arr = [1,2,3,4,5,6,7,8];
+
+// let newValue = arr.every((number)=>{
+//      return number > 2
+// })
+
+// console.log(newValue)
+
+// sort method 
+
+// let arr =[10,90,20,80,30,70,40,60,50,100];
+
+// arr.sort()
+
+// console.log(arr);
+
+
+// Array destructuring
+
+// let arr = [10,20,30];
+
+// let [a,b,c,d=40] = arr
+
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(d)
+
+
+
+
+
+
 
 
 
