@@ -249,12 +249,102 @@
 
 // concat()
 
-let arr1 = [1,2,3,4,5];
-let arr2 = [6,7,8,9,10];
+// let arr1 = [1,2,3,4,5];
+// let arr2 = [6,7,8,9,10];
 
-let newArr = arr1.concat(arr2)
+// let newArr = arr1.concat(arr2)
 
-console.log(newArr);
+// console.log(newArr);
+
+
+// Linear Search in array
+
+// let arr = [10,20,30,40,50];
+
+// let target = 30;
+
+// for(let i=0;i<arr.length;i++)
+// {
+//      if(arr[i] === target)
+//      {
+//           console.log("found");
+//           break
+//      }
+// }
+
+
+// Binary search
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let target = 6;
+
+// let left  = 0;
+// let right = arr.length;
+// console.log(right)
+
+// while(left <= right)
+// {
+
+//      let mid  = Math.floor((left + right) / 2);
+
+//      if(arr[mid] === target)
+//      {
+//           console.log(`Element found at index ${mid}`);
+//           break;
+//      }
+
+//      if(arr[mid] < target)
+//      {
+//          left =  mid + 1;
+//      }
+//      else
+//      {
+//           right = mid -1
+//      }
+
+// }
+
+
+// Math function
+
+// let num1 = 35;
+
+// let num2 = 4 
+
+
+// // let result = Math.floor(num1/num2);
+
+// let result = Math.ceil(num1/num2);
+
+// console.log(result);
+
+// Math.random for creating random numbers
+
+// console.log(Math.floor(Math.random()*10000))
+
+
+// 2D or Nested Array
+
+// let arr = [
+//      [1,2,3],
+//      [4,5,6],
+//      [7,8,9]
+// ]
+
+
+// for(let i=0;i<arr.length;i++)
+// {
+//      for(let j=0; j<arr[i].length;j++)
+//      {
+//           console.log(arr[i][j])
+//      }
+// }
+
+
+
+
+
 
 
 
